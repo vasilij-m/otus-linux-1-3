@@ -275,7 +275,6 @@ sde                        8:64   0    1G  0 disk
 └─vg_var-lv_var_rimage_1 253:6    0 1016M  0 lvm  
   └─vg_var-lv_var        253:7    0 1016M  0 lvm  /var
 
-```
 [vagrant@lvm ~]$ sudo -i
 [root@lvm ~]# lvremove /dev/vg_root/lv_root -y
   Logical volume "lv_root" successfully removed
